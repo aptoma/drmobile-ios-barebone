@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0081E77159E3C6900DD7506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E76159E3C6900DD7506 /* UIKit.framework */; };
+		D0081E79159E3C6900DD7506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E78159E3C6900DD7506 /* Foundation.framework */; };
+		D0081E7B159E3C6900DD7506 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E7A159E3C6900DD7506 /* CoreGraphics.framework */; };
+		D0081E81159E3C6900DD7506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0081E7F159E3C6900DD7506 /* InfoPlist.strings */; };
+		D0081E83159E3C6900DD7506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0081E82159E3C6900DD7506 /* main.m */; };
+		D0081E87159E3C6900DD7506 /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0081E86159E3C6900DD7506 /* DMAppDelegate.m */; };
+		D0081E8A159E3C6900DD7506 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0081E89159E3C6900DD7506 /* DMViewController.m */; };
+		D0081E8D159E3C6900DD7506 /* DMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0081E8B159E3C6900DD7506 /* DMViewController_iPhone.xib */; };
+		D0081E90159E3C6900DD7506 /* DMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0081E8E159E3C6900DD7506 /* DMViewController_iPad.xib */; };
+		D0081E98159E3C6900DD7506 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E97159E3C6900DD7506 /* SenTestingKit.framework */; };
+		D0081E99159E3C6900DD7506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E76159E3C6900DD7506 /* UIKit.framework */; };
+		D0081E9A159E3C6900DD7506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0081E78159E3C6900DD7506 /* Foundation.framework */; };
+		D0081EA2159E3C6900DD7506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0081EA0159E3C6900DD7506 /* InfoPlist.strings */; };
+		D0081EA5159E3C6900DD7506 /* DrMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0081EA4159E3C6900DD7506 /* DrMobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0081E9B159E3C6900DD7506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0081E69159E3C6900DD7506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0081E71159E3C6900DD7506;
+			remoteInfo = DrMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0081E72159E3C6900DD7506 /* DrMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0081E76159E3C6900DD7506 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0081E78159E3C6900DD7506 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0081E7A159E3C6900DD7506 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0081E7E159E3C6900DD7506 /* DrMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrMobile-Info.plist"; sourceTree = "<group>"; };
+		D0081E80159E3C6900DD7506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0081E82159E3C6900DD7506 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0081E84159E3C6900DD7506 /* DrMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrMobile-Prefix.pch"; sourceTree = "<group>"; };
+		D0081E85159E3C6900DD7506 /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		D0081E86159E3C6900DD7506 /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
+		D0081E88159E3C6900DD7506 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
+		D0081E89159E3C6900DD7506 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		D0081E8C159E3C6900DD7506 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController_iPhone.xib; sourceTree = "<group>"; };
+		D0081E8F159E3C6900DD7506 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController_iPad.xib; sourceTree = "<group>"; };
+		D0081E96159E3C6900DD7506 /* DrMobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrMobileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0081E97159E3C6900DD7506 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0081E9F159E3C6900DD7506 /* DrMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrMobileTests-Info.plist"; sourceTree = "<group>"; };
+		D0081EA1159E3C6900DD7506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0081EA3159E3C6900DD7506 /* DrMobileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrMobileTests.h; sourceTree = "<group>"; };
+		D0081EA4159E3C6900DD7506 /* DrMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrMobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0081E6F159E3C6900DD7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081E77159E3C6900DD7506 /* UIKit.framework in Frameworks */,
+				D0081E79159E3C6900DD7506 /* Foundation.framework in Frameworks */,
+				D0081E7B159E3C6900DD7506 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0081E92159E3C6900DD7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081E98159E3C6900DD7506 /* SenTestingKit.framework in Frameworks */,
+				D0081E99159E3C6900DD7506 /* UIKit.framework in Frameworks */,
+				D0081E9A159E3C6900DD7506 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0081E67159E3C6900DD7506 = {
+			isa = PBXGroup;
+			children = (
+				D0081E7C159E3C6900DD7506 /* DrMobile */,
+				D0081E9D159E3C6900DD7506 /* DrMobileTests */,
+				D0081E75159E3C6900DD7506 /* Frameworks */,
+				D0081E73159E3C6900DD7506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0081E73159E3C6900DD7506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0081E72159E3C6900DD7506 /* DrMobile.app */,
+				D0081E96159E3C6900DD7506 /* DrMobileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0081E75159E3C6900DD7506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0081E76159E3C6900DD7506 /* UIKit.framework */,
+				D0081E78159E3C6900DD7506 /* Foundation.framework */,
+				D0081E7A159E3C6900DD7506 /* CoreGraphics.framework */,
+				D0081E97159E3C6900DD7506 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0081E7C159E3C6900DD7506 /* DrMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D0081E85159E3C6900DD7506 /* DMAppDelegate.h */,
+				D0081E86159E3C6900DD7506 /* DMAppDelegate.m */,
+				D0081E88159E3C6900DD7506 /* DMViewController.h */,
+				D0081E89159E3C6900DD7506 /* DMViewController.m */,
+				D0081E8B159E3C6900DD7506 /* DMViewController_iPhone.xib */,
+				D0081E8E159E3C6900DD7506 /* DMViewController_iPad.xib */,
+				D0081E7D159E3C6900DD7506 /* Supporting Files */,
+			);
+			path = DrMobile;
+			sourceTree = "<group>";
+		};
+		D0081E7D159E3C6900DD7506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0081E7E159E3C6900DD7506 /* DrMobile-Info.plist */,
+				D0081E7F159E3C6900DD7506 /* InfoPlist.strings */,
+				D0081E82159E3C6900DD7506 /* main.m */,
+				D0081E84159E3C6900DD7506 /* DrMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0081E9D159E3C6900DD7506 /* DrMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0081EA3159E3C6900DD7506 /* DrMobileTests.h */,
+				D0081EA4159E3C6900DD7506 /* DrMobileTests.m */,
+				D0081E9E159E3C6900DD7506 /* Supporting Files */,
+			);
+			path = DrMobileTests;
+			sourceTree = "<group>";
+		};
+		D0081E9E159E3C6900DD7506 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0081E9F159E3C6900DD7506 /* DrMobileTests-Info.plist */,
+				D0081EA0159E3C6900DD7506 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0081E71159E3C6900DD7506 /* DrMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0081EA8159E3C6900DD7506 /* Build configuration list for PBXNativeTarget "DrMobile" */;
+			buildPhases = (
+				D0081E6E159E3C6900DD7506 /* Sources */,
+				D0081E6F159E3C6900DD7506 /* Frameworks */,
+				D0081E70159E3C6900DD7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrMobile;
+			productName = DrMobile;
+			productReference = D0081E72159E3C6900DD7506 /* DrMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0081E95159E3C6900DD7506 /* DrMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0081EAB159E3C6900DD7506 /* Build configuration list for PBXNativeTarget "DrMobileTests" */;
+			buildPhases = (
+				D0081E91159E3C6900DD7506 /* Sources */,
+				D0081E92159E3C6900DD7506 /* Frameworks */,
+				D0081E93159E3C6900DD7506 /* Resources */,
+				D0081E94159E3C6900DD7506 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0081E9C159E3C6900DD7506 /* PBXTargetDependency */,
+			);
+			name = DrMobileTests;
+			productName = DrMobileTests;
+			productReference = D0081E96159E3C6900DD7506 /* DrMobileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0081E69159E3C6900DD7506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DM;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Aptoma AS";
+			};
+			buildConfigurationList = D0081E6C159E3C6900DD7506 /* Build configuration list for PBXProject "DrMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0081E67159E3C6900DD7506;
+			productRefGroup = D0081E73159E3C6900DD7506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0081E71159E3C6900DD7506 /* DrMobile */,
+				D0081E95159E3C6900DD7506 /* DrMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0081E70159E3C6900DD7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081E81159E3C6900DD7506 /* InfoPlist.strings in Resources */,
+				D0081E8D159E3C6900DD7506 /* DMViewController_iPhone.xib in Resources */,
+				D0081E90159E3C6900DD7506 /* DMViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0081E93159E3C6900DD7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081EA2159E3C6900DD7506 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0081E94159E3C6900DD7506 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0081E6E159E3C6900DD7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081E83159E3C6900DD7506 /* main.m in Sources */,
+				D0081E87159E3C6900DD7506 /* DMAppDelegate.m in Sources */,
+				D0081E8A159E3C6900DD7506 /* DMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0081E91159E3C6900DD7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0081EA5159E3C6900DD7506 /* DrMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0081E9C159E3C6900DD7506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0081E71159E3C6900DD7506 /* DrMobile */;
+			targetProxy = D0081E9B159E3C6900DD7506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0081E7F159E3C6900DD7506 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0081E80159E3C6900DD7506 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0081E8B159E3C6900DD7506 /* DMViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0081E8C159E3C6900DD7506 /* en */,
+			);
+			name = DMViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D0081E8E159E3C6900DD7506 /* DMViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0081E8F159E3C6900DD7506 /* en */,
+			);
+			name = DMViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		D0081EA0159E3C6900DD7506 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0081EA1159E3C6900DD7506 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0081EA6159E3C6900DD7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0081EA7159E3C6900DD7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0081EA9159E3C6900DD7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrMobile/DrMobile-Prefix.pch";
+				INFOPLIST_FILE = "DrMobile/DrMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0081EAA159E3C6900DD7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrMobile/DrMobile-Prefix.pch";
+				INFOPLIST_FILE = "DrMobile/DrMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0081EAC159E3C6900DD7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrMobile.app/DrMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrMobile/DrMobile-Prefix.pch";
+				INFOPLIST_FILE = "DrMobileTests/DrMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D0081EAD159E3C6900DD7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrMobile.app/DrMobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrMobile/DrMobile-Prefix.pch";
+				INFOPLIST_FILE = "DrMobileTests/DrMobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0081E6C159E3C6900DD7506 /* Build configuration list for PBXProject "DrMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0081EA6159E3C6900DD7506 /* Debug */,
+				D0081EA7159E3C6900DD7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0081EA8159E3C6900DD7506 /* Build configuration list for PBXNativeTarget "DrMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0081EA9159E3C6900DD7506 /* Debug */,
+				D0081EAA159E3C6900DD7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0081EAB159E3C6900DD7506 /* Build configuration list for PBXNativeTarget "DrMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0081EAC159E3C6900DD7506 /* Debug */,
+				D0081EAD159E3C6900DD7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0081E69159E3C6900DD7506 /* Project object */;
+}
